@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&color=timeAuto&section=header&text=improve-ssk-pro&height=60&fontSize=40)
 
 
-### Index
+## Index
 1. [Description](#Description)
 2. [Development Environment](#Development-Environment)
 3. [Flow Chart](#Flow-Chart)
@@ -21,7 +21,12 @@
 
 ### Development Environment
 
+
+
 ### Flow Chart
+
+![flow-chart 1](https://github.com/zincum30/refactor-sskchat/assets/115124708/6a7e375e-2324-4091-9a74-affdab1a0b21)
+
 
 ### System Architecture
 
@@ -34,31 +39,39 @@
 <summary><b>사용자</b> (/api/v1/user)</summary>
 
 
-| Method |      End Point       | Description |
-|:------:|:--------------------:|:-----------:|
-|  GET   |        /login        |     로그인     |
-|  POST  |      /register       |    회원가입     |
-|  GET   | /check-duplicated-id |  아이디 중복 확인  |
-|  GET   |       /find-id       |   아이디 찾기    |
-|  GET   |    /find-password    |   비밀번호 찾기   |
-| DELETE |   /delete-account    |    회원 탈퇴    |
+| Method |      End Point       |  Description  |
+|:------:|:--------------------:|:-------------:|
+|  GET   |        /login        |      로그인      |
+|  POST  |      /register       |     회원가입      |
+|  GET   | /check-duplicated-id |   아이디 중복 확인   |
+|  GET   |       /find-id       |    아이디 찾기     |
+|  GET   |    /find-password    |    비밀번호 찾기    |
+| DELETE |   /delete-account    |     회원 탈퇴     |
+|  POST  |       /profile       |    프로필 수정     |
+|        |      /activity       |  작성한 포스팅 목록   |
+|        |      /activity       |   작성한 댓글 목록   |
+|        |      /activity       |    북마크 목록     |
+|        |      /activity       |     구독 목록     |
+|        |      /activity       | 나를 북마크한 유저 목록 |
+|        |      /activity       | 나를 구독한 유저 목록  |
+
+
+
 
 </details>
+
 
 <details>
 
 <summary><b>포스트</b> (/api/v1/posts)</summary>
 
 
-| Method |  End Point  |  Description   |
-|:------:|:-----------:|:--------------:|
-|  GET   |             |   포스트 목록 보기    |
-|  GET   |             |   포스트 목록 정렬    |
-|  GET   |             |   포스트 목록 페이징   |
-|  GET   |             |   포스트 상세 보기    |
+| Method |  End Point  |  Description   |  Note  |
+|:------:|:-----------:|:--------------:|:------:|
+|  GET   |             |   포스트 목록 조회    |
+|  GET   |             |   포스트 상세 조회    |
 |  POST  |             |    포스트 북마크     |
-|  POST  |             |     포스트 작성     |
-|  POST  |             |   포스트 이미지 저장   |
+|  POST  |             |     포스트 작성     | 멀티파트폼? |
 |  PUT   |             |   포스트 임시 저장    |
 |  GET   |             | 포스트 임시 저장 불러오기 |
 |  PUT   |             |     포스트 수정     |
@@ -78,7 +91,7 @@
 |  POST  |             |    댓글 작성    |
 |  PUT   |             |    댓글 수정    |
 | DELETE |             |    댓글 삭제    |
-|  GET   |             |  댓글 목록 보기   |
+|  GET   |             |  댓글 목록 조회   |
 
 
 </details>
@@ -92,46 +105,12 @@
 | Method |  End Point  | Description |
 |:------:|:-----------:|:-----------:|
 |  POST  |             |  채팅 메시지 발송  |
-|  GET   |             |  채팅 메시지 보기  |
-|  GET   |             |  채팅 목록 보기   |
+|  GET   |             |  채팅 내역 조회   |
+|  GET   |             |  채팅방 목록 조회  |
 | DELETE |             |  채팅 내역 삭제   |
 
 
 </details>
-
-
-<details>
-
-<summary><b>프로필</b> (/api/v1/profile)</summary>
-
-
-| Method |  End Point  | Description |
-|:------:|:-----------:|:-----------:|
-|  POST  |             | 프로필 이미지 수정  |
-|  GET   |             |   프로필 수정    |
-
-
-</details>
-
-
-<details>
-
-<summary><b>유저 활동</b> (/api/v1/user-activity)</summary>
-
-
-| Method |  End Point  |  Description  |
-|:------:|:-----------:|:-------------:|
-|        |             |  작성한 포스팅 목록   |
-|        |             |   작성한 댓글 목록   |
-|        |             |    북마크 목록     |
-|        |             |     구독 목록     |
-|        |             | 나를 북마크한 유저 목록 |
-|        |             | 나를 구독한 유저 목록  |
-
-
-</details>
-
-
 
 
 
