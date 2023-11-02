@@ -2,16 +2,17 @@
 
 
 ## Index
-> 1. [Description](#Description)
-> 2. [Development Environment](#Development-Environment)
-> 3. [Flow Chart](#Flow-Chart)
-> 4. [System Architecture](#System-Architecture)
-> 5. [ERD](#ERD)
-> 6. [API](#API)
-> 7. [Directories](#Directories)
-> 8. [Improvement](#Improvement)
-> 9. [Issues](#Issues)
-> 10. [Notes](#Notes)
+
+1. [Description](#Description)
+2. [Development Environment](#Development-Environment)
+3. [Flow Chart](#Flow-Chart)
+4. [System Architecture](#System-Architecture)
+5. [ERD](#ERD)
+6. [API](#API)
+7. [Directories](#Directories)
+8. [Improvement](#Improvement)
+9. [Issues](#Issues)
+10. [Notes](#Notes)
 
 
 
@@ -27,15 +28,15 @@
 
 ## Flow Chart
 
----
-
 
 ![Untitled - Flow Chart](https://github.com/zincum30/improve-ssk-pro/assets/115124708/3d150083-a5b9-4432-87ea-f2a0bdc4fc37)
 <br>
 
+---
+
 ## System Architecture
 
----
+
 
 
 ![제목 없음-2023-11-02-0237](https://github.com/zincum30/improve-ssk-pro/assets/115124708/658dcc4a-77b4-4e32-b8f8-7b5d149d10fc)
