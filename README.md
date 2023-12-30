@@ -1,4 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeAuto&section=header&text=improve-ssk-pro)
+<img src= "https://capsule-render.vercel.app/api?type=waving&height=250&color=auto&text=Improve%20SSK&reversal=false&textBg=false&fontAlignY=35">
+
 
 
 ## Index
