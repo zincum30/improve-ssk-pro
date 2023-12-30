@@ -113,5 +113,4 @@
 ## Notes
 
 
-
-![footer](https://capsule-render.vercel.app/api?type=waving&&color=timeAuto&section=footer)
+<img src = "https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&section=footer">
